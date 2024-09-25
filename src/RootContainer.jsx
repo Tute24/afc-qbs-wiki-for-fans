@@ -1,6 +1,8 @@
 import { Outlet } from "react-router-dom"
 import Home from "./Components/Home"
+
 export default function RootContainer(){
+    
     return(
         <div>
             <p>
@@ -10,7 +12,7 @@ export default function RootContainer(){
                 <Home/>
             </>
             <>
-                <Outlet/>
+                <Outlet />
             </>
         </div>
     )

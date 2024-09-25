@@ -1,7 +1,10 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { QbApi } from "../../QbAPI";
+import { Link } from "react-router-dom";
 
 export default function AfcNorth (){
     const [quarterbacks,setQuarterbacks] = useState([])
+    const {toQb, setToQb} = useContext(QbApi)
 
     useEffect(() =>{
         fetch("/afcNorth.JSON").then((response) => response.json()).then((data) => setQuarterbacks(data.quarterbacks))
@@ -12,8 +15,8 @@ export default function AfcNorth (){
             <ul>
                 {
                 (quarterbacks.map((quarterbacks)=>(
-                    <li key={quarterbacks.name}>
-                        {quarterbacks.name}
+                    <li key={quarterbacks.name} onClick={()=> setToQb(quarterbacks.name)}>
+                        <Link to="/profile">{quarterbacks.name}</Link>
                     </li>
             )
         )

@@ -1,11 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import RootContainer from "./src/RootContainer";
-import AfcEast from "./src/Pages/AfcEast";
-import AfcNorth from "./src/Pages/AfcNorth";
-import AfcSouth from "./src/Pages/AfcSouth";
-import AfcWest from "./src/Pages/AfcWest";
+import AfcEast from "./src/Pages/Divisions/AfcEast";
+import AfcNorth from "./src/Pages/Divisions/AfcNorth";
+import AfcSouth from "./src/Pages/Divisions/AfcSouth";
+import AfcWest from "./src/Pages/Divisions/AfcWest";
+import Profile from "./src/Pages/Profile";
 
-const router = createBrowserRouter([
+    const router = createBrowserRouter([
     {
         path: "/",
         element: <RootContainer/>,
@@ -27,7 +28,11 @@ const router = createBrowserRouter([
                 element: <AfcWest/>
             }
         ]
-    }   
+    },
+    {
+        path: '/profile',
+        element: <Profile/>
+    }
 ])
 
 export default router
