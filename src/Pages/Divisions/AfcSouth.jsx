@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function AfcSouth (){
     const [quarterbacks,setQuarterbacks] = useState([])
     const {toQb, setToQb} = useContext(QbApi)
-
+    
     useEffect(() =>{
         fetch("/afcSouth.JSON").then((response) => response.json()).then((data) => setQuarterbacks(data.quarterbacks))
     },[])
