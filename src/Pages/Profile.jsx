@@ -55,10 +55,11 @@ export default function Profile (){
         <section>
             {selectedQb &&(
                 <h2>
+                    <img src={selectedQb.pic} alt={selectedQb.name} />
                     {selectedQb.name}
                 </h2>
             )}
-            <ul>
+            <ul style={{listStyle: "none"}}>
                 {selectedQb &&(
                     <>
                 <li>Full Name: {selectedQb.fullName}</li>

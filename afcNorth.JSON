@@ -16,7 +16,8 @@
             "round": 1,
             "pick": 32,
             "draftedBy": "Baltimore Ravens",
-            "teamsPlayed": ["Baltimore Ravens"]
+            "teamsPlayed": ["Baltimore Ravens"],
+            "pic": "./playerPhotos/Lamar Jackson.png"
           },
           {
             "name": "Joe Burrow",
@@ -34,7 +35,8 @@
             "round": 1,
             "pick": 1,
             "draftedBy": "Cincinnati Bengals",
-            "teamsPlayed": ["Cincinnati Bengals"]
+            "teamsPlayed": ["Cincinnati Bengals"],
+            "pic": "./playerPhotos/Joe Burrow.png"
           },
           {
             "name": "Deshaun Watson",
@@ -52,7 +54,8 @@
             "round": 1,
             "pick": 12,
             "draftedBy": "Houston Texans",
-            "teamsPlayed": ["Houston Texans", "Cleveland Browns"]
+            "teamsPlayed": ["Houston Texans", "Cleveland Browns"],
+            "pic": "./playerPhotos/Deshaun Watson.png"
           },
           {
             "name": "Justin Fields",
@@ -70,7 +73,8 @@
             "round": 1,
             "pick": 11,
             "draftedBy": "Chicago Bears",
-            "teamsPlayed": ["Chicago Bears","Pittsburgh Steelers"]
+            "teamsPlayed": ["Chicago Bears","Pittsburgh Steelers"],
+            "pic": "./playerPhotos/Justin Fields.png"
           }
     ]
 }

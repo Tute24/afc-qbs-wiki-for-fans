@@ -5,10 +5,12 @@ export default function Home(){
         <section>
         <header>
             <nav>
-              <Link to="/AfcEast"> AFC East </Link>
-              <Link to="/AfcNorth"> AFC North </Link>
-              <Link to="/AfcSouth"> AFC South </Link>
-              <Link to="/AfcWest"> AFC West </Link>
+                <div className="divisions">
+                    <Link to="/AfcEast" style={{textDecoration:"none"}}> <p>AFC East</p> </Link>
+                    <Link to="/AfcNorth" style={{textDecoration:"none"}}> <p>AFC North</p> </Link>
+                    <Link to="/AfcSouth" style={{textDecoration:"none"}}> <p>AFC South</p> </Link>
+                    <Link to="/AfcWest" style={{textDecoration:"none"}}> <p>AFC West</p> </Link>
+                </div>
             </nav>
         </header>
     </section>

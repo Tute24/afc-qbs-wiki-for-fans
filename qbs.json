@@ -16,7 +16,8 @@
         "round": 1,
         "pick": 7,
         "draftedBy": "Buffalo Bills",
-        "teamsPlayed": ["Buffalo Bills"]
+        "teamsPlayed": ["Buffalo Bills"],
+        "pic": "./playerPhotos/Josh Allen.png"
       },
       {
         "name": "Tua Tagovailoa",
@@ -35,7 +36,8 @@
         "round": 1,
         "pick": 5,
         "draftedBy": "Miami Dolphins",
-        "teamsPlayed": ["Miami Dolphins"]
+        "teamsPlayed": ["Miami Dolphins"],
+        "pic": "./playerPhotos/Tua Tagovailoa.png"
       },
       {
         "name": "Jacoby Brissett",
@@ -54,7 +56,8 @@
         "round": 3,
         "pick": 91,
         "draftedBy": "New England Patriots",
-        "teamsPlayed": ["New England Patriots", "Indianapolis Colts", "Miami Dolphins", "Cleveland Browns", "Washington Commanders"]
+        "teamsPlayed": ["New England Patriots", "Indianapolis Colts", "Miami Dolphins", "Cleveland Browns", "Washington Commanders"],
+        "pic": "./playerPhotos/Jacoby Brissett.png"
       },
       {
         "name": "Aaron Rodgers",
@@ -73,7 +76,8 @@
         "round": 1,
         "pick": 24,
         "draftedBy": "Green Bay Packers",
-        "teamsPlayed": ["Green Bay Packers", "New York Jets"]
+        "teamsPlayed": ["Green Bay Packers", "New York Jets"],
+        "pic": "./playerPhotos/Aaron Rodgers.png"
       },
       {
         "name": "Lamar Jackson",
@@ -92,7 +96,8 @@
         "round": 1,
         "pick": 32,
         "draftedBy": "Baltimore Ravens",
-        "teamsPlayed": ["Baltimore Ravens"]
+        "teamsPlayed": ["Baltimore Ravens"],
+        "pic": "./playerPhotos/Lamar Jackson.png"
       },
       {
         "name": "Joe Burrow",
@@ -111,7 +116,8 @@
         "round": 1,
         "pick": 1,
         "draftedBy": "Cincinnati Bengals",
-        "teamsPlayed": ["Cincinnati Bengals"]
+        "teamsPlayed": ["Cincinnati Bengals"],
+        "pic": "./playerPhotos/Joe Burrow.png"
       },
       {
         "name": "Deshaun Watson",
@@ -130,7 +136,8 @@
         "round": 1,
         "pick": 12,
         "draftedBy": "Houston Texans",
-        "teamsPlayed": ["Houston Texans", "Cleveland Browns"]
+        "teamsPlayed": ["Houston Texans", "Cleveland Browns"],
+        "pic": "./playerPhotos/Deshaun Watson.png"
       },
       {
         "name": "Justin Fields",
@@ -149,7 +156,8 @@
         "round": 1,
         "pick": 11,
         "draftedBy": "Chicago Bears",
-        "teamsPlayed": ["Chicago Bears","Pittsburgh Steelers"]
+        "teamsPlayed": ["Chicago Bears","Pittsburgh Steelers"],
+        "pic": "./playerPhotos/Justin Fields.png"
       },
       {
         "name": "CJ Stroud",
@@ -168,7 +176,8 @@
         "round": 1,
         "pick": 2,
         "draftedBy": "Houston Texans",
-        "teamsPlayed": ["Houston Texans"]
+        "teamsPlayed": ["Houston Texans"],
+        "pic": "./playerPhotos/CJ Stroud.png"
       },
       {
         "name": "Trevor Lawrence",
@@ -187,7 +196,8 @@
         "round": 1,
         "pick": 1,
         "draftedBy": "Jacksonville Jaguars",
-        "teamsPlayed": ["Jacksonville Jaguars"]
+        "teamsPlayed": ["Jacksonville Jaguars"],
+        "pic": "./playerPhotos/Trevor Lawrence.png"
       },
       {
         "name": "Anthony Richardson",
@@ -206,7 +216,8 @@
         "round": 1,
         "pick": 4,
         "draftedBy": "Indianapolis Colts",
-        "teamsPlayed": ["Indianapolis Colts"]
+        "teamsPlayed": ["Indianapolis Colts"],
+        "pic": "./playerPhotos/Anthony Richardson.png"
       },
       {
         "name": "Will Levis",
@@ -225,7 +236,8 @@
         "round": 2,
         "pick": 33,
         "draftedBy": "Tennessee Titans",
-        "teamsPlayed": ["Tennessee Titans"]
+        "teamsPlayed": ["Tennessee Titans"],
+        "pic": "./playerPhotos/Will Levis.png"
       },
       {
         "name": "Bo Nix",
@@ -244,7 +256,8 @@
         "round": 1,
         "pick": 12,
         "draftedBy": "Denver Broncos",
-        "teamsPlayed": ["Denver Broncos"]
+        "teamsPlayed": ["Denver Broncos"],
+        "pic": "./playerPhotos/Bo Nix.png"
       },
       {
         "name": "Patrick Mahomes",
@@ -263,7 +276,8 @@
         "round": 1,
         "pick": 10,
         "draftedBy": "Kansas City Chiefs",
-        "teamsPlayed": ["Kansas City Chiefs"]
+        "teamsPlayed": ["Kansas City Chiefs"],
+        "pic": "./playerPhotos/Patrick Mahomes.png"
       },
       {
         "name": "Gardner Minshew",
@@ -282,7 +296,8 @@
         "round": 6,
         "pick": 178,
         "draftedBy": "Jacksonville Jaguars",
-        "teamsPlayed": ["Jacksonville Jaguars", "Philadelphia Eagles", "Indianapolis Colts","Las Vegas Raiders"]
+        "teamsPlayed": ["Jacksonville Jaguars", "Philadelphia Eagles", "Indianapolis Colts","Las Vegas Raiders"],
+        "pic": "./playerPhotos/Gardner Minshew.png"
       },
       {
         "name": "Justin Herbert",
@@ -301,7 +316,8 @@
         "round": 1,
         "pick": 6,
         "draftedBy": "Los Angeles Chargers",
-        "teamsPlayed": ["Los Angeles Chargers"]
+        "teamsPlayed": ["Los Angeles Chargers"],
+        "pic": "./playerPhotos/Justin Herbert.png"
       }
     ]
 }

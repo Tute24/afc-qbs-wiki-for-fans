@@ -16,7 +16,8 @@
             "round": 1,
             "pick": 2,
             "draftedBy": "Houston Texans",
-            "teamsPlayed": ["Houston Texans"]
+            "teamsPlayed": ["Houston Texans"],
+            "pic": "./playerPhotos/CJ Stroud.png"
           },
           {
             "name": "Trevor Lawrence",
@@ -34,7 +35,8 @@
             "round": 1,
             "pick": 1,
             "draftedBy": "Jacksonville Jaguars",
-            "teamsPlayed": ["Jacksonville Jaguars"]
+            "teamsPlayed": ["Jacksonville Jaguars"],
+            "pic": "./playerPhotos/Trevor Lawrence.png"
           },
           {
             "name": "Anthony Richardson",
@@ -52,7 +54,8 @@
             "round": 1,
             "pick": 4,
             "draftedBy": "Indianapolis Colts",
-            "teamsPlayed": ["Indianapolis Colts"]
+            "teamsPlayed": ["Indianapolis Colts"],
+            "pic": "./playerPhotos/Anthony Richardson.png"
           },
           {
             "name": "Will Levis",
@@ -70,7 +73,8 @@
             "round": 2,
             "pick": 33,
             "draftedBy": "Tennessee Titans",
-            "teamsPlayed": ["Tennessee Titans"]
+            "teamsPlayed": ["Tennessee Titans"],
+            "pic": "./playerPhotos/Will Levis.png"
           }
     ]
 }

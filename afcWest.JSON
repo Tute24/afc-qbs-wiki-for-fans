@@ -16,7 +16,8 @@
             "round": 1,
             "pick": 12,
             "draftedBy": "Denver Broncos",
-            "teamsPlayed": ["Denver Broncos"]
+            "teamsPlayed": ["Denver Broncos"],
+            "pic": "./playerPhotos/Bo Nix.png"
           },
           {
             "name": "Patrick Mahomes",
@@ -34,7 +35,8 @@
             "round": 1,
             "pick": 10,
             "draftedBy": "Kansas City Chiefs",
-            "teamsPlayed": ["Kansas City Chiefs"]
+            "teamsPlayed": ["Kansas City Chiefs"],
+            "pic": "./playerPhotos/Patrick Mahomes.png"
           },
           {
             "name": "Gardner Minshew",
@@ -52,7 +54,8 @@
             "round": 6,
             "pick": 178,
             "draftedBy": "Jacksonville Jaguars",
-            "teamsPlayed": ["Jacksonville Jaguars", "Philadelphia Eagles", "Indianapolis Colts","Las Vegas Raiders"]
+            "teamsPlayed": ["Jacksonville Jaguars", "Philadelphia Eagles", "Indianapolis Colts","Las Vegas Raiders"],
+            "pic": "./playerPhotos/Gardner Minshew.png"
           },
           {
             "name": "Justin Herbert",
@@ -70,7 +73,8 @@
             "round": 1,
             "pick": 6,
             "draftedBy": "Los Angeles Chargers",
-            "teamsPlayed": ["Los Angeles Chargers"]
+            "teamsPlayed": ["Los Angeles Chargers"],
+            "pic": "./playerPhotos/Justin Herbert.png"
           }
     ]
 }
