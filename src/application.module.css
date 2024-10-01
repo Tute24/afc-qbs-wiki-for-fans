@@ -1,12 +1,2 @@
-.qbsUl{
-    display: inline-flex;
-    box-sizing: border-box;
-   
-}
 
-.qbsList{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
 
