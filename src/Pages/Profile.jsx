@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { QbApi } from "../QbAPI";
 import { Link } from "react-router-dom";
+import css from "../application.module.css"
 
 export default function Profile (){
     const { toQb, setToQb } = useContext(QbApi)
@@ -24,59 +25,60 @@ export default function Profile (){
         if(selectedQb.division === "AFC East"){
              return(
                 <>
-                <Link to = "/AfcEast"><button type="button">Go Back</button></Link>
+                <Link to = "/AfcEast"><button className={css.goBackButton} type="button"><img src=".././public/Arrow.png" alt="Go Back Button" /></button></Link>
                 </>
             )}
         else if(selectedQb.division === "AFC West") {
             return(
                 <>
-                <Link to = "/AfcWest"><button type="button">Go Back</button></Link>
+                <Link to = "/AfcWest"><button className={css.goBackButton} type="button"><img src=".././public/Arrow.png" alt="Go Back Button" /></button></Link>
                 </>
             )}
             else if(selectedQb.division === "AFC North") {
                 return(
                     <>
-                    <Link to = "/AfcNorth"><button type="button">Go Back</button></Link>
+                    <Link to = "/AfcNorth"><button className={css.goBackButton} type="button"><img src=".././public/Arrow.png" alt="Go Back Button" /></button></Link>
                     </>
                 )}
                 else if(selectedQb.division === "AFC South") {
                     return(
                         <>
-                        <Link to = "/AfcSouth"><button type="button">Go Back</button></Link>
+                        <Link to = "/AfcSouth"><button className={css.goBackButton} type="button"><img src=".././public/Arrow.png" alt="Go Back Button" /></button></Link>
                         </>
                     )}
 }
         
     return(
-       <>  
-        <div>
-        {returnToDivision()}
-        </div>    
-        <section>
-            {selectedQb &&(
-                <h2>
-                    <img src={selectedQb.pic} alt={selectedQb.name} />
-                    {selectedQb.name}
-                </h2>
-            )}
-            <ul style={{listStyle: "none"}}>
+       <>
+            <div>
+            {returnToDivision()}
+            </div>    
+            <section>
                 {selectedQb &&(
-                    <>
-                <li>Full Name: {selectedQb.fullName}</li>
-                <li>Birth Place: {selectedQb.fromCity}</li>
-                <li>Height: {selectedQb.height} cm</li>
-                <li>Weight: {selectedQb.weight} kg</li>
-                <li>Drafted in {selectedQb.draftedIn}, round {selectedQb.round}, pick {selectedQb.pick}, from {selectedQb.almaMater} </li>
-                <li>Current Team: {selectedQb.team}</li>
-                <li>Jersey Number: {selectedQb.jerseyNumber}</li>
-                <li>Teams Played For: {Array.isArray(selectedQb.teamsPlayed) ? selectedQb.teamsPlayed.join(", "): "No"}</li>
-                <li>Individual Awards: {(Array.isArray(selectedQb.individualAwards) && selectedQb.individualAwards.length===0) ? "None" : Array.isArray(selectedQb.individualAwards) ? selectedQb.individualAwards.join(", ") : "No"}</li>
-                <li>Titles: {(Array.isArray(selectedQb.titles) && selectedQb.titles.length===0) ? "None" : Array.isArray(selectedQb.titles) ? selectedQb.titles.join(", ") : "No"}</li>
-                </>
+                    <h2 className={css.header}>
+                        <img className={css.playerPic} src={selectedQb.pic} alt={selectedQb.name} />
+                        <p className={css.playerName}>{selectedQb.name}</p>
+                    </h2>
                 )}
-            </ul>
-        </section>
+                <ul className={css.playerInfos} style={{listStyle: "none"}}>
+                    {selectedQb &&(
+                        <>
+                    <li ><span>Full Name:</span> {selectedQb.fullName}</li>
+                    <li ><span>Birth Place:</span> {selectedQb.fromCity}</li>
+                    <li><span>Height:</span> {selectedQb.height} cm</li>
+                    <li><span>Weight:</span> {selectedQb.weight} kg</li>
+                    <li><span>Drafted in:</span> {selectedQb.draftedIn}, round {selectedQb.round}, pick {selectedQb.pick}, from {selectedQb.almaMater} </li>
+                    <li><span>Current Team:</span> {selectedQb.team}</li>
+                    <li><span>Jersey Number:</span> {selectedQb.jerseyNumber}</li>
+                    <li><span>Teams Played For:</span> {Array.isArray(selectedQb.teamsPlayed) ? selectedQb.teamsPlayed.join(", "): "No"}</li>
+                    <li><span>Individual Awards:</span> {(Array.isArray(selectedQb.individualAwards) && selectedQb.individualAwards.length===0) ? "None" : Array.isArray(selectedQb.individualAwards) ? selectedQb.individualAwards.join(", ") : "No"}</li>
+                    <li><span>Titles:</span> {(Array.isArray(selectedQb.titles) && selectedQb.titles.length===0) ? "None" : Array.isArray(selectedQb.titles) ? selectedQb.titles.join(", ") : "No"}</li>
+                    </>
+                    )}
+                </ul>
+            </section>
         </>
+        
     )
  
 }

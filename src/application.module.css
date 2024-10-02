@@ -1,2 +1,53 @@
 
+.playerName{
+    text-align: center;
+}
+
+.playerPic{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height:6rem;
+    padding: 0;
+}
+
+.playerInfos{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.playerInfos li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.playerInfos li span{
+    font-weight: bold;
+}
+
+.goBackButton{
+    height: 2rem;
+    background: none;
+    border: none;
+    cursor:pointer;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.goBackButton img{
+    height: 2rem;
+}
+
+.header{
+    margin: 0;
+}
+
+
 
