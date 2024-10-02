@@ -16,7 +16,7 @@
         "pick": 7,
         "draftedBy": "Buffalo Bills",
         "teamsPlayed": ["Buffalo Bills"],
-        "pic": "./playerPhotos/Josh Allen.png"
+        "pic": "/playerPhotos/Josh Allen.png"
       },
       {
         "name": "Tua Tagovailoa",
@@ -35,7 +35,7 @@
         "pick": 5,
         "draftedBy": "Miami Dolphins",
         "teamsPlayed": ["Miami Dolphins"],
-        "pic": "./playerPhotos/Tua Tagovailoa.png"
+        "pic": "/playerPhotos/Tua Tagovailoa.png"
       },
       {
         "name": "Jacoby Brissett",
@@ -54,7 +54,7 @@
         "pick": 91,
         "draftedBy": "New England Patriots",
         "teamsPlayed": ["New England Patriots", "Indianapolis Colts", "Miami Dolphins", "Cleveland Browns", "Washington Commanders"],
-        "pic": "./playerPhotos/Jacoby Brissett.png"
+        "pic": "/playerPhotos/Jacoby Brissett.png"
       },
       {
         "name": "Aaron Rodgers",
@@ -73,7 +73,7 @@
         "pick": 24,
         "draftedBy": "Green Bay Packers",
         "teamsPlayed": ["Green Bay Packers", "New York Jets"],
-        "pic": "./playerPhotos/Aaron Rodgers.png"
+        "pic": "/playerPhotos/Aaron Rodgers.png"
       }
     ]
 }
