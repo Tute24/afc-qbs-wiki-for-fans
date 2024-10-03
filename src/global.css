@@ -38,12 +38,13 @@ li a{
 
 nav p {
     display: inline-flex;
-    padding: 0.5rem;
+    padding: 0.25rem;
     color: #ed0a0a;
     font-weight: bold;
     background-color: #050387;
     border-radius: 2rem;  
-    margin: 1rem;
+    margin: auto;
+    font-size: 15px;
 }
 
 nav{
@@ -281,6 +282,7 @@ li p{
     nav div p{
         font-size: 8px;
         padding: 0.25rem;
+        color: white;
     }
 }
 
