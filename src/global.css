@@ -272,6 +272,19 @@ li p{
     }
 }
 
+@media (max-width: 291px){
+    nav{
+        padding: 0;
+    }
+    :root{
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+    nav div p{
+        padding: 0.25rem;
+    }
+}
+
 @media (max-height: 900px){
     body{
         display: flex;

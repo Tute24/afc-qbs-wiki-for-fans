@@ -25,25 +25,25 @@ export default function Profile (){
         if(selectedQb.division === "AFC East"){
              return(
                 <>
-                <Link to = "/AfcEast"><button className={css.goBackButton} type="button"><img src=".././public/Arrow.png" alt="Go Back Button" /></button></Link>
+                <Link to = "/AfcEast"><button className={css.goBackButton} type="button"><img src="/Arrow.png" alt="Go Back Button" /></button></Link>
                 </>
             )}
         else if(selectedQb.division === "AFC West") {
             return(
                 <>
-                <Link to = "/AfcWest"><button className={css.goBackButton} type="button"><img src=".././public/Arrow.png" alt="Go Back Button" /></button></Link>
+                <Link to = "/AfcWest"><button className={css.goBackButton} type="button"><img src="/Arrow.png" alt="Go Back Button" /></button></Link>
                 </>
             )}
             else if(selectedQb.division === "AFC North") {
                 return(
                     <>
-                    <Link to = "/AfcNorth"><button className={css.goBackButton} type="button"><img src=".././public/Arrow.png" alt="Go Back Button" /></button></Link>
+                    <Link to = "/AfcNorth"><button className={css.goBackButton} type="button"><img src="/Arrow.png" alt="Go Back Button" /></button></Link>
                     </>
                 )}
                 else if(selectedQb.division === "AFC South") {
                     return(
                         <>
-                        <Link to = "/AfcSouth"><button className={css.goBackButton} type="button"><img src=".././public/Arrow.png" alt="Go Back Button" /></button></Link>
+                        <Link to = "/AfcSouth"><button className={css.goBackButton} type="button"><img src="/Arrow.png" alt="Go Back Button" /></button></Link>
                         </>
                     )}
 }
