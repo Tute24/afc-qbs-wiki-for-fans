@@ -275,14 +275,13 @@ li p{
 
 @media (max-width: 292px){
     nav{
-        padding: 0;
-        
+        padding: 0;  
     }
 
     nav div p{
         font-size: 8px;
         padding: 0.25rem;
-        color: white;
+        
     }
 }
 
