@@ -275,6 +275,13 @@ li p{
 @media (max-width: 291px){
     nav{
         padding: 0;
+        display: flex ;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    section{
+        width: 100%;
     }
     :root{
         margin-left: 0.3rem;
