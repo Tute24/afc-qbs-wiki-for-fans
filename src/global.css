@@ -272,22 +272,14 @@ li p{
     }
 }
 
-@media (max-width: 291px){
+@media (max-width: 292px){
     nav{
         padding: 0;
-        display: flex ;
-        flex-wrap: nowrap;
-        justify-content: center;
+        
     }
 
-    section{
-        width: 100%;
-    }
-    :root{
-        margin-left: 0.3rem;
-        margin-right: 0.3rem;
-    }
     nav div p{
+        font-size: 8px;
         padding: 0.25rem;
     }
 }
